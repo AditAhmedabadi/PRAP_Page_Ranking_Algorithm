@@ -1,4 +1,4 @@
-**************** Web Page Ranking Algrorithm ********************
+*********************************************************************** Web Page Ranking Algrorithm*******************************************************************************
 
 This is a program which crawls through all the href links of a website(any) and gives each page a rank using the rank algorithm in give_rank.py.
 
