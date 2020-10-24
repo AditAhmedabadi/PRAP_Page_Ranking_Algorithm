@@ -1,6 +1,7 @@
- *********************************************************************** Web Page Ranking Algrorithm*******************************************************************************
+*Web Page Ranking Algrorithm*
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-This is a program which crawls through all the href links of a website and gives each page a rank using the rank algorithm in give_rank.py.
+An Advanced Algorithm which crawls through href links from a particular website and gives each pages a rank depending upon the number of href links pointing back towards it using an algorithm and maps and stores it in a SQL database
 
 Files:
 crawl.py: This file asks for a start url and spiders through all the href links in the web page. In order to not deviate too much, i have restricted the program to go to links on the same base website and not another.(U will understand it better when i explain the page ranking algorithm). It saves all the links and their html data in a database "spider.sqlite"
